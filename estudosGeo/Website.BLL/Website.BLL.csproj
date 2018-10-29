@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E66D79E-720E-4DF4-B85D-7B6B25EECDB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Website.BLL</RootNamespace>
+    <AssemblyName>Website.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Anotacao.cs" />
+    <Compile Include="Entities\AnotacaoRelatorio.cs" />
+    <Compile Include="Entities\Arvore.cs" />
+    <Compile Include="Entities\Cidade.cs" />
+    <Compile Include="Entities\LocalUsuarioAtual.cs" />
+    <Compile Include="Entities\PublicacaoOrdemColaborador.cs" />
+    <Compile Include="Entities\ReisidenciaRelatorio.cs" />
+    <Compile Include="Entities\DataOrdemExibir.cs" />
+    <Compile Include="Entities\DemandaStrand.cs" />
+    <Compile Include="Entities\ComercioRelatorio.cs" />
+    <Compile Include="Entities\TerrenoRelatorio.cs" />
+    <Compile Include="Entities\EdificioRelatorio.cs" />
+    <Compile Include="Entities\FotoArvore.cs" />
+    <Compile Include="Entities\FotoPontoEntrega.cs" />
+    <Compile Include="Entities\FotoPoste.cs" />
+    <Compile Include="Entities\IP.cs" />
+    <Compile Include="Entities\LatLonQuadra.cs" />
+    <Compile Include="Entities\LimiteCidade.cs" />
+    <Compile Include="Entities\Logradouro.cs" />
+    <Compile Include="Entities\Medidor.cs" />
+    <Compile Include="Entities\Mobile.cs" />
+    <Compile Include="Entities\OrdemDeServico.cs" />
+    <Compile Include="Entities\PoligonoOS.cs" />
+    <Compile Include="Entities\PontoEntrega.cs" />
+    <Compile Include="Entities\Poste.cs" />
+    <Compile Include="Entities\Quadra.cs" />
+    <Compile Include="Entities\RelatoriosGerais.cs" />
+    <Compile Include="Entities\StrandRelatorio.cs" />
+    <Compile Include="Entities\TiepRelatorio.cs" />
+    <Compile Include="Entities\VaoPrimario.cs" />
+    <Compile Include="Entities\VaosDemandaPoste.cs" />
+    <Compile Include="Enums\Aterramento.cs" />
+    <Compile Include="Enums\ClasseAtendimento.cs" />
+    <Compile Include="Enums\ClasseSocial.cs" />
+    <Compile Include="Enums\Classificacao.cs" />
+    <Compile Include="Enums\ClassificacaoComercio.cs" />
+    <Compile Include="Enums\Defeito.cs" />
+    <Compile Include="Enums\Encontrado.cs" />
+    <Compile Include="Enums\Equipamento.cs" />
+    <Compile Include="Enums\Esforco.cs" />
+    <Compile Include="Enums\Mufla.cs" />
+    <Compile Include="Enums\Ocorrencia.cs" />
+    <Compile Include="Enums\PorteArvore.cs" />
+    <Compile Include="Enums\Altura.cs" />
+    <Compile Include="Enums\QtdEstai.cs" />
+    <Compile Include="Enums\RedePrimaria.cs" />
+    <Compile Include="Enums\SituacaoOrdemServico.cs" />
+    <Compile Include="Enums\TipoConstrucao.cs" />
+    <Compile Include="Enums\TipoDaEmpresa.cs" />
+    <Compile Include="Entities\Transformador.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Enums\Afloramento.cs" />
+    <Compile Include="Enums\ClasseDeOperacao.cs" />
+    <Compile Include="Enums\Proprietario.cs" />
+    <Compile Include="Enums\PontoIndicadorDeFalta.cs" />
+    <Compile Include="Enums\StatusEquipamento.cs" />
+    <Compile Include="Enums\TipoDeEstrutura.cs" />
+    <Compile Include="Enums\ParaRaio.cs" />
+    <Compile Include="Enums\Estai.cs" />
+    <Compile Include="Enums\ElementoTerra.cs" />
+    <Compile Include="Enums\Ancora.cs" />
+    <Compile Include="Enums\TipoPoste.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Geocoding\BaseConverter.cs" />
+    <Compile Include="Utils\Geocoding\NorteOuSul.cs" />
+    <Compile Include="Utils\Geocoding\ConverterLatLonToUtm.cs" />
+    <Compile Include="Utils\Geocoding\ConverterUtmToLatLon.cs" />
+    <Compile Include="Utils\Geocoding\Datum.cs" />
+    <Compile Include="Utils\Geocoding\LatLon.cs" />
+    <Compile Include="Utils\Geocoding\UTM.cs" />
+    <Compile Include="Utils\Security\AESCrypt.cs" />
+    <Compile Include="Utils\Validacoes\ExtensionPolygon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

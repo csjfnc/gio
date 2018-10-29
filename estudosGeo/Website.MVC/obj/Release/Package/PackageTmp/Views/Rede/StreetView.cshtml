@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+@Html.AntiForgeryToken()
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Visium Geo - Street View</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #pano {
+            float: left;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="pano"></div>
+    <script>
+        function initialize() {
+            var params = {};
+            window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) { params[key] = value; });
+            var panorama = new google.maps.StreetViewPanorama(
+                document.getElementById('pano'), {
+                    position: new google.maps.LatLng(params['Latitude'], params['Longitude']),
+                    pov: { heading: 34, pitch: 10 }
+                });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?@System.Web.Configuration.WebConfigurationManager.AppSettings["KeyGoogleMaps"]&callback=initialize"></script>
+</body>
+</html>

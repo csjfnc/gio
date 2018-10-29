@@ -1,0 +1,156 @@
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csprojResolveAssemblyReference.cache
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+D:\FTP Visium\VisiumCad\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.IdentityResources.resources
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.csproj.GenerateResource.Cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity.MySQL\obj\Debug\Website.Identity.MySQL.pdb

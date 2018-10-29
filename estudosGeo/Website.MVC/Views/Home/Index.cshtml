@@ -1,0 +1,212 @@
+﻿
+@{
+    ViewBag.Title = "Visualização das Ordens de Serviço";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Website.MVC.Models.Maps.CidadeViewModel
+@section css{ 
+@Styles.Render("~/Content/PaceMaps") 
+} 
+
+@Html.AntiForgeryToken()
+
+@Html.Partial("FormularioPontoEntrega")
+@Html.Partial("FormularioPontoEntregaNovo")
+@Html.Partial("ModalOpcoesPontoEntrega")
+@Html.Partial("ModalOpcoesPoste")
+@Html.Partial("FormularioPoste")
+@Html.Partial("ModalOpcoesAnotacao")
+
+<div id="globalMap"></div>
+<div id="panel">    
+    <div id="panel_index">
+        @Html.Partial("MenuCentral", Model)
+        <!--div class="btn-group-vertical" role="group" aria-label="...">
+            <button id="btn_cidade" class="btn btn-primary btn-sm" onclick="GlobalMaps.get().CarregarOSCidade();">
+                O.S. por Cidade
+            </button>
+            <button id="btn_refresh" class="btn btn-info btn-sm" onclick="GlobalMaps.get().Refresh();">
+                <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                Refresh
+            </button>            
+        </div-->   
+        
+        <div class="btn-group" role="group" id="campoSearchRua" aria-label="..." style="display: none; margin-top: -12px; margin-left: 10px; width: 350px;">
+            <input type="text" id="nomeRua" class="form-control" autocomplete="off" />
+            <button class="btn btn-warning" id="btnLimparCampRua" onclick="GlobalMaps.get().LimparCampRua();" style="margin-right: 8px; margin-top: 5px;">Limpar</button>
+            <button class="btn btn-primary" id="btnProcurarRua" onclick="GlobalMaps.get().ProcurarRua();" style="float: left; margin-top: 5px;" >Procurar</button>
+            <label style="color: red; margin-left: 5px" id="errorua"></label>
+        </div>
+
+            
+    </div>
+</div>
+<div id="pano"></div>
+<div class="modal fade" id="ModalCidade" tabindex="-1" role="dialog" aria-labelledby="ModalCidadeLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center text-danger" id="ModalCidadeLabel">
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                    Escolha da Cidade
+                </h4>
+            </div>
+            <div class="modal-body">
+                <h4 class="text-primary text-center">Você deve Selecionar uma Cidade.</h4>
+                <select class="form-control" id="selectCidade"></select>
+            </div>
+            <div class="modal-footer">
+                <button id="btn_ConfirmCidade" class="btn btn-success" onclick="GlobalMaps.get().PlotarOsMapa();">Confirmar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="modal fade" id="EditarOS" tabindex="-1" role="dialog" aria-labelledby="EditarOSLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title text-center text-danger" id="EditarOSLabel">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    Ordem de Serviço :<label id="numOS" class="editOS"></label>
+                </h3>
+            </div>
+            <div class="modal-body">
+                
+                <input type="hidden" id="idOSrr" class="editOS" />
+                <h4 class="text-primary">Situação</h4>
+                @Html.DropDownList("status_os", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.SituacaoOrdemServico>(), new { @class = "form-control" })
+                <h4 class="text-primary">Data de Criação</h4>
+                <input id="dhCricao" type="date" class="form-control editOS" disabled />
+                <h4 class="text-primary">Data de Encerremento</h4>
+                <input id="dhEncerramento" type="date" class="form-control editOS" />
+                <h4 class="text-primary">Colaborador Responsavel</h4>
+                @Html.DropDownList("selectUsers", new SelectList(ViewBag.ListUsers, "Id", "UserName"), new { @class = "form-control" })
+                <div style="float: left; ">
+                    <h4 class="text-primary">Numero de Postes</h4>
+                    <input id="dhQtdPoste" type="number" class="form-control editOS" disabled />
+                </div>
+                <div style="float: left; margin-left: 20px; margin-bottom: 15px;">
+                    <h4 class="text-primary">Numero de Postes Finalizados</h4>
+                    <input id="dhQtdPosteFinalizado" type="number" class="form-control editOS" disabled />
+                </div>
+                <div style="clear: left; margin-top: 25px">
+                    <h4 class="text-primary">Observacao</h4>
+                    <textarea class="form-control text-uppercase" id="observacao" rows="3" maxlength="500"></textarea>
+                </div>
+                    <hr />
+                    <div class="progress" id="barradeprogresso">
+                    </div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" style="float: left" class="btn btn-danger" onclick="GlobalMaps.get().ApagarOrdem();" data-dismiss="modal"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Apagar Ordem</button>                
+                <button type="submit" class="btn btn-primary" onclick="GlobalMaps.get().LoadPostesByOs();">Visualizar Postes</button>
+                <!--button-- type="submit" class="btn btn-primary" onclick="GlobalMaps.get().PlotaPosteByOs();">Visualizar Postes</!--button-->
+                <button type="submit" class="btn btn-success" onclick="GlobalMaps.get().EditarOs();"><span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"></span> Salvar</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="CriarOS" tabindex="-1" role="dialog" aria-labelledby="CriarOSLabel">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center text-danger" id="CriarLabel">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                Ordem de Serviço :<label id="numOS" class="editOS"></label>
+            </h3>
+        </div>
+        <div class="modal-body">
+            <input type="hidden" id="idCidade" class="editOS" />
+            <h4 class="text-primary">Situação</h4>
+            @Html.DropDownList("status_os_cria", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.SituacaoOrdemServico>(), new { @class = "form-control" })
+            <h4 class="text-primary">Data de Criação</h4>
+            <input id="dhCricao" type="date" class="form-control editOS" disabled />
+            <h4 class="text-primary">Data de Encerremento</h4>
+            <input id="dhEncerramento" type="date" class="form-control editOS" />
+            <h4 class="text-primary">Colaborador Responsavel</h4>
+            @Html.DropDownList("selectUsers_cria", new SelectList(ViewBag.ListUsers, "Id", "UserName"), new { @class = "form-control" })     
+            <h4 class="text-primary">Nome da Ordem</h4> 
+            <input type="text" id="nomeOrdemCriada" class="form-control" />
+            <h4 class="text-primary">Observacao</h4>
+            <textarea class="form-control text-uppercase" id="observacao" rows="3" maxlength="500"></textarea>
+            <hr />
+            <div class="progress" id="barradeprogresso">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <!--button type="submit" class="btn btn-primary" onclick="GlobalMaps.get().LoadPostesByOs();">Visualizar Postes</button-->
+            <button type="submit" class="btn btn-success" onclick="GlobalMaps.get().CriarOs();"><span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"></span> Criar</button>
+            <button type="button" class="btn btn-danger" onclick="GlobalMaps.get().ConcelarCricaoOs();" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> Cancelar</button>
+        </div>
+    </div>
+</div> 
+    </div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="ModalDescricaoAnotacao" aria-labelledby="OpcoesAnotacaoLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="text-center text-primary" id="OpcoesPosteLabel"><b>Descrição Anotação</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="descricaoAnotacao"></label>
+                    <input type="text" class="form-control" id="descricaoAnotacao" placeholder="Digite a descricao">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="GlobalMaps.get().SalvarNovaAnotacao();" type="submit">Salvar</button>
+                <button class="btn btn-danger" onclick="GlobalMaps.get().CancelaAnotacao();" type="submit">Cancelar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="ModalOpcoesStrands" aria-labelledby="OpcoesStrandsLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="text-center text-primary" id="OpcoesPosteLabel"><b>Deseja Pagar o Strand</h4>
+                <input type="hidden" id="hiden_idStrands" value="" />
+            </div>            
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="GlobalMaps.get().ApagarStrand();" type="submit">Apagar</button>
+                <button class="btn btn-danger" onclick="GlobalMaps.get().FechaModal();" type="submit">Cancelar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="ModalOpcoesArrastarposte" aria-labelledby="OpcoesArrastarPosteLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="text-center text-primary" id="OpcoesPosteLabel"><b>Deseja salvar o poste?</h4>
+                <input type="hidden" id="hiden_idStrands" value="" />
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="GlobalMaps.get().SalvarArrastarPoste();" type="submit">Salvar</button>
+                <button class="btn btn-danger" onclick="GlobalMaps.get().CancelarArrastarPoste();" type="submit">Cancelar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<link href="@Url.Content("~/Content/ModalCustom.css")" rel="stylesheet" type="text/css" />
+@section scripts {
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?@System.Web.Configuration.WebConfigurationManager.AppSettings["KeyGoogleMaps"]&libraries=geometry,drawing,places"></script>
+    @Scripts.Render("~/bundles/maplabel-compiled.js")
+    @Scripts.Render("~/bundles/richmarker-compiled.js")
+    @Scripts.Render("~/bundles/GlobalMaps")    
+}

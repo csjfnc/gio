@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Relatorio Usuario por Ordem de Serviço";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css {
+    @Styles.Render("~/Content/datatable")
+    @Styles.Render("~/Content/Pace")
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/datatable")
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#table_os').DataTable();
+        });
+    </script>
+}
+
+@Html.AntiForgeryToken()
+
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Cidades</div>
+        <div class="panel-body">
+            @using (Html.BeginForm("OsbyUser", "Relatorios", FormMethod.Post))
+            {
+                <div class="col-md-4 col-md-offset-2">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon"><b>CIDADE</b></span>
+                        @Html.DropDownList("cidade", new SelectList(ViewBag.Cidades, "IdCidade", "Nome"), new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Carregar</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Ordens de Serviços</div>
+        <div class="panel-body">
+            <table id="table_os" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>OS</th>
+                        <th>Criação</th>
+                        <th>Encerramento</th>
+                        <th>Total Postes</th>
+                        <th>Total Arvores</th>
+                        <th>Total Invasão</th>
+                        <th>Porcentagem Finalizados</th>
+                        <th>Colaborador Responsavel</th>
+                        <th>json</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        if (Model != null) 
+                        { 
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th>@item.OrdemServico</th>
+                                    <th>@item.DataCriacao</th>
+                                    <th>@item.DataEncerramento</th>
+                                    <th>@item.TotalPostes</th>
+                                    <th>@item.TotalArvores</th>
+                                    <th>@item.TotalInvasao</th>
+                                    <th>@item.PorcentagemFinalizados</th>
+                                    <th>@item.Colaborador</th>
+                                    <th>@item.IdOS</th>
+                                </tr>
+                            }
+                        }
+                        
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

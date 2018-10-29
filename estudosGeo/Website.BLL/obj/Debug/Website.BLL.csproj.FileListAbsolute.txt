@@ -1,0 +1,53 @@
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.BLL\bin\Debug\Website.BLL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.BLL\bin\Debug\Website.BLL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.BLL\obj\Debug\Website.BLL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.BLL\obj\Debug\Website.BLL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.BLL\obj\Debug\Website.BLL.csprojResolveAssemblyReference.cache
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.BLL\obj\Debug\Website.BLL.csprojResolveAssemblyReference.cache
+C:\VisiumCad\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+C:\VisiumCad\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\VisiumCad\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+C:\VisiumCad\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.BLL\obj\Debug\Website.BLL.csprojResolveAssemblyReference.cache
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+D:\FTP Visium\VisiumCad\Website.BLL\bin\Debug\Website.BLL.dll
+D:\FTP Visium\VisiumCad\Website.BLL\bin\Debug\Website.BLL.pdb
+D:\FTP Visium\VisiumCad\Website.BLL\obj\Debug\Website.BLL.dll
+D:\FTP Visium\VisiumCad\Website.BLL\obj\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.BLL\obj\Debug\Website.BLL.csprojResolveAssemblyReference.cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\obj\Debug\Website.BLL.pdb

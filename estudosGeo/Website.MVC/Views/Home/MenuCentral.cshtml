@@ -1,0 +1,115 @@
+﻿@model Website.MVC.Models.Maps.CidadeViewModel
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-form navbar-left" style="display: none">
+                <button id="btn_refresh" class="btn btn-info btn-sm" onclick="GlobalMaps.get().Refresh();">
+                    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                    Refresh
+                </button>
+            </div>
+            <div class="navbar-form navbar-left" id="carregaOrdem" style="display:none;">
+                <img src="Images/carregaOrdem.gif" alt="Smiley face" height="30" width="30">
+            </div>
+            <!--div class="navbar-form navbar-left">
+                <span id="labelCidade" class="label label-primary">Cidade: ----</span><br />
+                <span id="labelOs" class="label label-success">OS: ----</span>
+            </div-->
+        </div>
+        <div class="navbar-form navbar-left">
+            <button class="btn btn-primary" id="novaCidade" data-placement="bottom"  data-toggle="novacidadetooltip" title="Nova Cidade" onclick="GlobalMaps.get().NovaCidade();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <div class="navbar-form navbar-left" id="caixaNovaCidade" style="display: none">
+                <!--onfocus="GlobalMaps.get().geolocate();"--> 
+                <div class="input-group" id="nomeCidadeDiv">
+                    <input type="text" id="nomeCidade" class="form-control" autocomplete="off"  />
+                </div>
+                <div class="input-group" id="zonaDiv">
+                    <input type="text" id="zona" placeholder="Zona" style="width: 80px;" class="form-control" />
+                </div>
+                <div class="input-group" id="setimodigitoDiv">
+                    <input type="text" id="setimodigito" placeholder="7° Digito" style="width: 80px;" class="form-control" />
+                </div>
+                <div class="input-group" id="norteSulDiv">
+                    <select class="form-control" id="norteSul">
+                        <option value="0">Norte</option>
+                        <option value="1">Sul</option>
+                    </select>
+                </div>
+                    <button id="btn_CadastraCidade" class="btn btn-success" onclick="GlobalMaps.get().CadastrarCidade();">Cadastrar</button>
+                </div>
+            <div class="navbar-form navbar-left" id="caixaEscolheCidade">
+
+                <select class="form-control" id="selectcityHome" onchange="GlobalMaps.get().CarregaOrdemPorCidade();">
+                    <option value="0">SELECIONE A CIDADE</option>
+                </select>
+                <select class="form-control" id="selectOrdemHome">
+                    <option value="0">----------</option>
+                </select>
+                <button id="btn_ConfirmCidade" class="btn btn-success" onclick="GlobalMaps.get().PlotarOsMapa();">Carregar</button>
+                @*<button class="btn btn-danger" onclick="GlobalMaps.get().MoveRede(0, -0.00005);"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></button>
+                    <button class="btn btn-danger" onclick="GlobalMaps.get().MoveRede(0, 0.00005);"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+                    <button class="btn btn-danger" onclick="GlobalMaps.get().MoveRede(0.00005, 0);"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></button>
+                    <button class="btn btn-danger" onclick="GlobalMaps.get().MoveRede(-0.00005,0);"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></button>*@
+            </div>
+
+            <ul class="nav navbar-nav" id="menuExibirEquipamentos" style="display: none;">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poste <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)" id="plotaElimpaPoste" onclick="GlobalMaps.get().PlotaPostesByCidade();"><span class="glyphicon glyphicon-search"></span> Exibir Postes</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demanda <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)" id="PlotaeDesplotaDemanda" onclick="GlobalMaps.get().PlotaDemandasByCidade();"><span class="glyphicon glyphicon-search"></span>  Ver Demandas</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);" onclick="GlobalMaps.get().NovaDemanda();"><span class="glyphicon glyphicon-plus"></span> Novo</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Strands<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="PlotaeDesplotaStrands" onclick="GlobalMaps.get().PlotaStrandsByCidade();">Exibir Strands</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" style="display: none">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Anotações<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="GlobalMaps.get().PlotaAnotacoesByOs();">Exibir Anotações</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-form navbar-left" id="caixaMenuCriacao" style="display: none;">
+                <button id="btn_novo_poste" class="btn btn-info" onclick="GlobalMaps.get().NovoPoste();" title="Novo Poste">
+                    <img src="Images/menuposteicon.png" alt="Smiley face" height="20" width="20"> Poste
+                </button>
+                <button id="btn_nova_demanda" class="btn btn-info" onclick="GlobalMaps.get().NovaDemanda();" title="Nova Demanda">
+                    <img src="Images/menudemandaicon.png" alt="Smiley face" height="20" width="20"> Demanda
+                </button>
+                <button id="btn_novo_anotacao" class="btn btn-info" onclick="GlobalMaps.get().NovoAnotacao();" title="Nova Anotação">
+                    <img src="Images/menuanotacaoicon.png" alt="Smiley face" height="20" width="20"> Anotação
+                </button>
+                <button id="btn_novo_strand" class="btn btn-info" onclick="GlobalMaps.get().NovoStrand();" title="Novo Strand">
+                    <img src="Images/menustrandicon.png" alt="Smiley face" height="20" width="20"> Strand
+                </button>
+                <button id="btn_desativarLocalStreet" disabled class="btn btn-danger" onclick="GlobalMaps.get().DesativarLocalStreet();">
+                    <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> Desatvar StreetView
+                </button>                
+            </div>
+
+        </div>
+    </div>
+</nav>
+

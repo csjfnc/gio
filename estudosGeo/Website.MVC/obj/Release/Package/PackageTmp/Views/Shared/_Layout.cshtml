@@ -1,0 +1,120 @@
+﻿@using Website.Identity.CustomAutorizes
+@using System.Security.Claims
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visium Geo - @ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/favicon.ico">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("css", required: false)
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="~/Images/logo_bol.png" alt="Visium Ltda" class="navbar-brand-logo" />
+                    <div class="navbar-brand ">
+                        <label class="label label-danger" title="Version: @ViewContext.Controller.GetType().Assembly.GetName().Version">VISIUM GEO</label>                        
+                    </div>
+                </a>                
+            </div>
+            @if (Request.IsAuthenticated)
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        @{
+                            var Claims = (ClaimsIdentity)User.Identity;
+                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.ORDEM_DE_SERVICO.GetString()))
+                            {
+                                <li><a href="@Url.Action("Index", "Home")"><span class="glyphicon glyphicon-list-alt"></span> Ordem de Serviço</a></li>
+                            }
+                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.REDE.GetString()))
+                            {
+                                <li><a href="@Url.Action("Index", "Rede")"><span class="glyphicon glyphicon-globe"></span> Rede</a></li>
+                            }
+                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.ADMINISTRACAO.GetString()))
+                            {
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Administração<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        @{
+                                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.USUARIOS.GetString()))
+                                            {
+                                                <li><a href="@Url.Action("Index", "Usuario")"><span class="glyphicon glyphicon-user"></span> Gerenciar Usuario</a></li>
+                                            }
+                                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.ADMINISTRACAO.GetString()))
+                                            {
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="@Url.Action("Index", "AjustePoligonos")"><span class="glyphicon glyphicon-cog"></span> Ajustes de Poligonos</a></li>
+                                            }
+                                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.MOBILE.GetString()))
+                                            {
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="@Url.Action("Index","Celular")"><span class="glyphicon glyphicon-phone"></span> Gerenciar Celular</a></li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                            if (Claims != null && Claims.HasClaim(Modules.MODULO.GetString(), Modules.RELATORIOS.GetString()))
+                            {
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatórios<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="@Url.Action("FotosPostes", "Relatorios")"><span class="glyphicon glyphicon-camera"></span> Fotos Faltantes</a></li>
+                                        <li><a href="@Url.Action("OsbyUser", "Relatorios")"><span class="glyphicon glyphicon-th-list"></span> Os por Usuario</a></li>
+                                        <li><a href="@Url.Action("RelatorioPoste", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Postes por Cidade</a></li>
+                                        <li><a href="@Url.Action("RelatorioByOrdemServico", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Postes por OS</a></li>
+                                        <li><a href="@Url.Action("RelatorioFotos", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Fotos</a></li>
+                                        <li><a href="@Url.Action("RelatorioOsEvolucao", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Aconpanhamento Diario</a></li>
+                                        <!--li><a href="@Url.Action("RelatorioComponente", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Relatório Serviços</a></li-->
+                                        <li><a href="@Url.Action("RelatorioComponenteGeral", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span> Relatório Serviços</a></li>
+                                        <li><a href="@Url.Action("RelatorioPorColaboradorDataOs", "Relatorios")"><span class="glyphicon glyphicon-list-alt"></span>Relatórios Colaborador</a></li>
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bem vindo, @User.Identity.Name <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("VerDadosUsuario", "Usuario")"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Informações do Usuario</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="@Url.Action("Logout", "Auth")"><span class="glyphicon glyphicon-share-alt"></span> Sair</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>                    
+                </div>
+            }
+        </div>
+    </nav>
+    @RenderBody()
+    <hr />
+    <footer>
+        <p class="text-center">Visium Geo &copy; Visium Ltda - @DateTime.Now.Year - Version: @ViewContext.Controller.GetType().Assembly.GetName().Version</p>        
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/BootBox")
+
+    <script data-pace-options='{ "ajax": false }' src='@Url.Content("~/Scripts/pace.min.js")'></script>
+    <script>window.paceOptions = { elements: false, restartOnPushState: false, restartOnRequestAfter: false }</script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,165 @@
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\Website.DAL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\Website.DAL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\Website.DAL.dll.config
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\EntityFramework.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\MySql.Data.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\Website.BLL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\Website.BLL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\EntityFramework.xml
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.csproj.GenerateResource.Cache
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.Migrations.InitialMigration_v2.resources
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\Website.DAL\obj\Debug\Website.DAL.Migrations.InitialMigration.resources
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\VisiumCad\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+C:\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+C:\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll.config
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\Website.DAL.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\Website.DAL.pdb
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\EntityFramework.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\MySql.Data.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\Website.BLL.dll
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\Website.BLL.pdb
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\EntityFramework.xml
+D:\FTP Visium\VisiumCad\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\FTP Visium\VisiumCad\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+D:\FTP Visium\VisiumCad\Website.DAL\obj\Debug\Website.DAL.dll
+D:\FTP Visium\VisiumCad\Website.DAL\obj\Debug\Website.DAL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Debug\Website.DAL.pdb

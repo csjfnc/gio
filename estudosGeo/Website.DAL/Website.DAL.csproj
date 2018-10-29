@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C65B1229-163F-4A84-B6FB-66F391C781D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Website.DAL</RootNamespace>
+    <AssemblyName>Website.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Context\AppContext.cs" />
+    <Compile Include="Context\MobileContext.cs" />
+    <Compile Include="EntityConfig\AnotacaoConfig.cs" />
+    <Compile Include="EntityConfig\ArvoreConfig.cs" />
+    <Compile Include="EntityConfig\CidadeConfig.cs" />
+    <Compile Include="EntityConfig\DemandaStrandConfig.cs" />
+    <Compile Include="EntityConfig\FotoArvoreConfig.cs" />
+    <Compile Include="EntityConfig\FotoPontoEntregaConfig.cs" />
+    <Compile Include="EntityConfig\FotoPosteConfig.cs" />
+    <Compile Include="EntityConfig\IPConfig.cs" />
+    <Compile Include="EntityConfig\LatLonQuadraConfig.cs" />
+    <Compile Include="EntityConfig\LimiteCidadeConfig.cs" />
+    <Compile Include="EntityConfig\LocalUsuarioAtualConfig.cs" />
+    <Compile Include="EntityConfig\LogradouroConfig.cs" />
+    <Compile Include="EntityConfig\MedidorConfig.cs" />
+    <Compile Include="EntityConfig\MobileConfig.cs" />
+    <Compile Include="EntityConfig\OrdemDeServicoConfig.cs" />
+    <Compile Include="EntityConfig\PoligonosOSConfig.cs" />
+    <Compile Include="EntityConfig\PontoEntregaConfig.cs" />
+    <Compile Include="EntityConfig\PosteConfig.cs" />
+    <Compile Include="EntityConfig\PublicacaoOrdemColaboradorConfig.cs" />
+    <Compile Include="EntityConfig\QuadraConfig.cs" />
+    <Compile Include="EntityConfig\TransformadorConfig.cs" />
+    <Compile Include="EntityConfig\UsuarioConfig.cs" />
+    <Compile Include="EntityConfig\VaoPrimarioConfig.cs" />
+    <Compile Include="EntityConfig\VaosDemandaPosteConfig.cs" />
+    <Compile Include="Interfaces\IAnotacaoRepository.cs" />
+    <Compile Include="Interfaces\IArvoreRepository.cs" />
+    <Compile Include="Interfaces\ICidadeRepository.cs" />
+    <Compile Include="Interfaces\IDemandaStrandRepository.cs" />
+    <Compile Include="Interfaces\IFotoArvoreRepository.cs" />
+    <Compile Include="Interfaces\IFotoPontoEntregaRepository.cs" />
+    <Compile Include="Interfaces\IFotoPosteRepository.cs" />
+    <Compile Include="Interfaces\IIPRepository.cs" />
+    <Compile Include="Interfaces\ILatLonQuadraRepository.cs" />
+    <Compile Include="Interfaces\ILimiteCidadeRepository.cs" />
+    <Compile Include="Interfaces\ILocalUsuarioAtualRepository.cs" />
+    <Compile Include="Interfaces\ILogradouroRepository.cs" />
+    <Compile Include="Interfaces\IMedidorRepository.cs" />
+    <Compile Include="Interfaces\IMobileRepository.cs" />
+    <Compile Include="Interfaces\IOrdemDeServicoRepository.cs" />
+    <Compile Include="Interfaces\IPoligonoOSRepository.cs" />
+    <Compile Include="Interfaces\IPontoEntregaRepository.cs" />
+    <Compile Include="Interfaces\IPublicacaoOrdemColaboradorRepository.cs" />
+    <Compile Include="Interfaces\IQuadraRepository.cs" />
+    <Compile Include="Interfaces\ITransformadorRepository.cs" />
+    <Compile Include="Interfaces\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\IPosteRepository.cs" />
+    <Compile Include="Interfaces\IGenericRepository.cs" />
+    <Compile Include="Interfaces\IVaoPrimarioRepository.cs" />
+    <Compile Include="Interfaces\IVaosDemandaPosteRepository.cs" />
+    <Compile Include="Repository\AnotacaoRepository.cs" />
+    <Compile Include="Repository\ArvoreRepository.cs" />
+    <Compile Include="Repository\CidadeRepository.cs" />
+    <Compile Include="Repository\DemandaStrandRepository.cs" />
+    <Compile Include="Repository\FotoArvoreRepository.cs" />
+    <Compile Include="Repository\FotoPontoEntregaRepository.cs" />
+    <Compile Include="Repository\FotoPosteRepository.cs" />
+    <Compile Include="Repository\IPRepository.cs" />
+    <Compile Include="Repository\LimiteCidadeRepository.cs" />
+    <Compile Include="Repository\LocalUsuarioAtualRepository.cs" />
+    <Compile Include="Repository\LogradouroRepository.cs" />
+    <Compile Include="Repository\MedidorRepository.cs" />
+    <Compile Include="Repository\OrdemDeServicoRepository.cs" />
+    <Compile Include="Repository\PoligonoOSRepository.cs" />
+    <Compile Include="Repository\PontoEntregaRepository.cs" />
+    <Compile Include="Repository\PosteRepository.cs" />
+    <Compile Include="Repository\GenericRepository.cs" />
+    <Compile Include="Repository\PublicacaoOrdemColaboradorRepository.cs" />
+    <Compile Include="Repository\QuadraRepository.cs" />
+    <Compile Include="Repository\LatLonQuadraRepository.cs" />
+    <Compile Include="Repository\TransformadorRepository.cs" />
+    <Compile Include="Repository\UsuarioRepository.cs" />
+    <Compile Include="Repository\VaoPrimarioRepository.cs" />
+    <Compile Include="Repository\VaosDemandaPosteRespository.cs" />
+    <Compile Include="UnitOfWork\UnitOfWorkMobile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="Repository\MobileRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Website.BLL\Website.BLL.csproj">
+      <Project>{1e66d79e-720e-4df4-b85d-7b6b25eecdb3}</Project>
+      <Name>Website.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

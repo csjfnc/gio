@@ -1,0 +1,55 @@
+﻿<div id="ModalFiltroLampada" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="text-center"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span> Tipos de Lampadas</h4>
+                </div>
+                <hr />
+                <div class="container-fluid">
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>VS</b> <img src="~/Images/05.png"><input id="VS" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>ME</b><img src="~/Images/06.png"><input id="ME" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>VM</b> <img src="~/Images/07.png"><input id="VM" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>IN</b><img src="~/Images/09.png"><input id="IN" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>MS</b> <img src="~/Images/10.png"><input id="MS" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-3">
+                        <div class="panel-body">
+                            <div class="text-center"><b>FL</b><img src="~/Images/11.png"><input id="FL" type="checkbox"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-6">
+                        <div class="panel-body">
+                            <div class="text-center"><b>SEM IP</b><img src="~/Images/04.png"><input id="SEMIP" type="checkbox"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="GlobalMaps.get().OpcoesdeFiltroIP();"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span> Voltar </button>
+                    <button class="btn btn-success" onclick="GlobalMaps.get().PlotaPostesLampada();"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

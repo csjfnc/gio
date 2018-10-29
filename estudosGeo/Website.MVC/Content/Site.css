@@ -1,0 +1,109 @@
+.navbar-brand-logo {
+    float: left;
+    padding: 8px 5px;
+}
+
+
+.fixTop {
+    margin-top: 55px;
+}
+
+#globalMap {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;    
+    width: 100%;     
+}
+
+
+
+#panelLegenda {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    float: right;
+    position: absolute;
+    top: 110px;
+    left: 5px;
+}
+
+.margin-top-forms {
+    margin-top:10px;
+}
+
+body {
+    margin-top:55px;
+}
+.opcoesRelatoriosComponentes{
+    margin-top: 20px;
+}
+.erroCheckboxRelatorio{
+    border: 1px; color: #ff0000;
+}
+.label_content{
+      position:relative;
+      border-radius: 5px;
+      padding:3px;
+      color:#ffffff;
+      background-color: #7e7ed9;
+      font-size: 12px;
+      width: 100%;
+      line-height: 10px;
+      text-align: center;
+      }
+
+    /*  .label_content:after {
+      content:'';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -10px;
+      width: 0;
+      height: 0;
+      border-top: solid 10px red;
+      border-left: solid 10px transparent;
+      border-right: solid 10px transparent;
+      }*/
+
+    .label_content_localUser{
+        position:relative;
+      border-radius: 5px;
+      padding:4px;
+      color:#ffffff;
+      background-color: #fa5746;
+      font-size: 13px;
+      font-weight: bold; 
+      width: 100%;
+      line-height: 10px;
+      text-align: center;
+    }
+    .label_content_localUser:after {
+        content: '';        
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        width: 0;
+        height: 0;
+        border-top: solid 25px #fa5746;
+        border-left: solid 5px transparent;
+        border-right: solid 5px transparent;
+    }
+        .label_content_localUser::before {
+        content: '';        
+        position: absolute;
+        border-radius: 5px;
+        top: 100%;
+        left: 50%;
+        margin-left: -3px;
+        width: 5px;
+        height: 5px;
+        margin-top: 21px;
+        background-color: #a4a4a4;
+        border-top: solid 0px #000000;
+        border-left: solid 3px transparent;
+        border-right: solid 3px transparent;
+    }

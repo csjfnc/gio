@@ -1,0 +1,45 @@
+﻿<!-- Modal fullscreen ARVORE -->
+<div class="modal modal-fullscreen fade" id="modalArvore" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="panel panel-primary margin-top-forms">
+                <div class="panel-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="col-md-12">
+                        <h4 class="text-center text-primary"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> ÁRVORE</h4>
+                        <hr />
+                    </div>
+                    <div class="col-md-6 margin-top-forms">
+                        <div class="col-md-12">
+                            <h4 class="text-primary">Id Árvore</h4>
+                            <input type="text" class="form-control" id="input_id_arvore" disabled />
+                        </div>
+                        <div class="col-md-12">
+                            <h4 class="text-primary">Porte</h4>
+                            <input type="text" class="form-control" id="input_porte_arvore" disabled />
+                        </div>
+                    </div>
+                    <div class="col-md-6 margin-top-forms">
+                        <div id="carouselarvore" class="carousel slide margin-top-forms" data-ride="carousel">
+                            <ol class="carousel-indicators" id="ol-carouselarvore"></ol>
+                            <div class="carousel-inner" role="listbox" id="div-carouselarvore"></div>
+                            <a class="left carousel-control" href="#carouselarvore" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carouselarvore" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <hr />
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Fechar</button>
+                        <button type="submit" class="btn btn-info" onclick="GlobalMaps.get().AbreStreetViewArvore();"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Abre Street</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

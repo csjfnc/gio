@@ -1,0 +1,29 @@
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.BLL\obj\Release\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.BLL\obj\Release\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\obj\Release\Website.BLL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\obj\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.BLL\obj\Release\Website.BLL.pdb

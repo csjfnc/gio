@@ -1,0 +1,84 @@
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\Website.DAL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\Website.BLL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\Website.BLL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Release\Website.DAL.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Release\Website.DAL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.DAL\obj\Release\Website.DAL.pdb

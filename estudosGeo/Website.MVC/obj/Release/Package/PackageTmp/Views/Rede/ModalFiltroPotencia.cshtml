@@ -1,0 +1,63 @@
+﻿<!-- Modal Filtro Potencia-->
+<div id="ModalFiltroPotencia" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="text-primary text-center"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Potencia</h4>
+                <hr />
+                <div class="container-fluid">
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_0" type="checkbox"><img src="~/Images/13.png"> 0</p>
+                            <p><input id="Potencia_36" type="checkbox"><img src="~/Images/14.png"> 36</p>@*novo*@
+                            <p><input id="Potencia_40" type="checkbox"><img src="~/Images/15.png"> 40</p>               
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_50" type="checkbox"><img src="~/Images/16.png"> 50</p>@*novo*@
+                            <p><input id="Potencia_57" type="checkbox"><img src="~/Images/17.png"> 57</p>@*novo*@
+                            <p><input id="Potencia_58" type="checkbox"><img src="~/Images/18.png"> 58</p> 
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_60" type="checkbox"><img src="~/Images/19.png"> 60</p>
+                            <p><input id="Potencia_70" type="checkbox"><img src="~/Images/20.png"> 70</p>
+                            <p><input id="Potencia_71" type="checkbox"><img src="~/Images/21.png"> 71</p>@*novo*@
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_80" type="checkbox"><img src="~/Images/22.png"> 80</p>
+                            <p><input id="Potencia_100" type="checkbox"><img src="~/Images/23.png"> 100</p>
+                            <p><input id="Potencia_125" type="checkbox"><img src="~/Images/24.png"> 125</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_127" type="checkbox"><img src="~/Images/25.png"> 127</p>
+                            <p><input id="Potencia_143" type="checkbox"><img src="~/Images/26.png"> 143</p>@*novo*@
+                            <p><input id="Potencia_150" type="checkbox"><img src="~/Images/27.png"> 150</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default col-md-4">
+                        <div class="panel-body">
+                            <p><input id="Potencia_160" type="checkbox"><img src="~/Images/28.png"> 160</p>@*novo*@
+                            <p><input id="Potencia_250" type="checkbox"><img src="~/Images/29.png"> 250</p>
+                            <p><input id="Potencia_400" type="checkbox"><img src="~/Images/30.png"> 400</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="GlobalMaps.get().OpcoesdeFiltroIP();"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span> Voltar </button>
+                    <button class="btn btn-success" onclick="GlobalMaps.get().PlotaPostesPotencia();"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

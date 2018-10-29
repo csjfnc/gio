@@ -1,0 +1,186 @@
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+D:\Projetos\Visium Geo\Solução e Documentos\VISCAD\Ver. 1.0\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+C:\francisco\Ver. NET\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+C:\francisco\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll.config
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Website.Identity.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\MySql.Data.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\MySql.Data.Entity.EF6.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Owin.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Website.Identity.MySQL.pdb
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\EntityFramework.SqlServer.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\bin\Release\Newtonsoft.Json.xml
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\obj\Release\Website.Identity.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\obj\Release\Website.Identity.dll
+C:\francisco\Ver. NET\VisiumGEOWorking1.1(corrente)\Visiumgeo\Website.Identity\obj\Release\Website.Identity.pdb

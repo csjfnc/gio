@@ -1,0 +1,368 @@
+﻿
+@{
+    ViewBag.Title = "RelatorioComponente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section css {
+    @Styles.Render("~/Content/datatable")
+}
+
+@Html.AntiForgeryToken()
+<div id="div_barra_carregamento">
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            CARREGANDO...
+        </div>
+    </div>
+</div>
+<div class=" col-md-12 alert alert-danger" role="alert" id="erroCamposRel" style="display: none; margin: 0px;">
+    Não há Relatórios para serem extraidos!
+</div>
+<div class="col-md-12 div opcoesRelatoriosComponentes">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Cidades</div>
+        <div class="panel-body">
+
+            <div class="col-md-4">
+                <div class="input-group input-group-md" id="selecDataOrdemServico">
+                    <span class="input-group-addon"><b>DATA PUBLICADO</b></span>
+                    <select class="form-control" id="selectIDOrdemServico" onchange="Global.get().OnChangeDataPublicacao()">
+                        <option value="0">---</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group input-group-md" id="selectOsInput">
+                    <span class="input-group-addon"><b>ORDEM SERVIÇO</b></span>
+                    <select class="form-control" id="selectOs" onchange="Global.get().verificaOs()">
+                        <option value="0">---</option>
+                    </select>
+                </div>
+            </div>            
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary btn-block" onclick="Global.get().CriaRelatorioGeral()"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Carregar</button>
+            </div>                          
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableStrands" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Strands</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="strand_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>x1</th>
+                            <th>y1</th>
+                            <th>x2</th>
+                            <th>y2</th>
+                            <th>Ativo</th>
+                            <th>Servico</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableAnotacoes" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Anotações</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="anotacoes_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Anotacao</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>Angulo</th>
+                            <th>Ativo</th>
+                            <th>Servico</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableEdificio" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Edificios</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="edificio_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>codigo</th>
+                            <th>clasificacao</th>
+                            <th>lagradouro</th>
+                            <th>numero</th>
+                            <th>complemento 1</th>
+                            <th>txtcompl1</th>
+                            <th>complemento 2</th>
+                            <th>txtcompl2</th>
+                            <th>complemento 3</th>
+                            <th>txtcompl3</th>
+                            <th>complemento 4</th>
+                            <th>txtcompl4</th>
+                            <th>observacao</th>
+                            <th>cabeamento</th>
+                            <th>node</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>cod_poste</th>
+                            <th>tipo_comercio</th>
+                            <th>numero_de_andares</th>
+                            <th>total_apartamentos</th>
+                            <th>nome_edificio</th>
+                            <th>ativo</th>
+                            <th>ano_levantamento</th>
+                            <th>angulo</th>
+                            <th>servico</th>
+                            <th>lat</th>
+                            <th>longitude</th>
+                            <th>poste_box</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableTerreno" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Terreno</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="terreno_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            @*<th>CodGeo</th>
+                    <th>Id Poste</th>
+                    <th>Status Comparativo</th>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>Cidade</th>
+                    <th>Ordem Serviço</th>
+                    <th>Colaborador</th>
+                    <th>Data Cadastro</th>
+                    <th>Hora Cadastro</th>
+                    <th>Altura</th>
+                    <th>Tipo Poste</th>
+                    <th>Esforço</th>
+                    <th>Descrição</th>
+                    <th>num-gps</th>*@
+
+                            <th>codigo</th>
+                            <th>clasificacao</th>
+                            <th>numero</th>
+                            <th>tipo</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>cod_poste</th>
+                            <th>ativo</th>
+                            <th>lagradouro</th>
+                            <th>angulo</th>
+                            <th>divisao</th>
+                            <th>servico</th>
+                            <th>node</th>
+                            <th>lat</th>
+                            <th>longitude</th>
+                            <th>poste_box</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableResid" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Resid</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="resid_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>codigo</th>
+                            <th>clasificacao</th>
+                            <th>lagradouro</th>
+                            <th>numero</th>
+                            <th>complemento 1</th>
+                            <th>txtcompl1</th>
+                            <th>complemento 2</th>
+                            <th>txtcompl2</th>
+                            <th>complemento 3</th>
+                            <th>txtcompl3</th>
+                            <th>complemento 4</th>
+                            <th>txtcompl4</th>
+                            <th>observacao</th>
+                            <th>cabeamento</th>
+                            <th>node</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>cod_poste</th>
+                            <th>angulo</th>
+                            <th>divisao</th>
+                            <th>qtdedem</th>
+                            <th>ativo</th>
+                            <th>servico</th>
+                            <th>lat</th>
+                            <th>longitude</th>
+                            <th>poste_box</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableComercio" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Cni</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="cni_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>codigo</th>
+                            <th>clasificacao</th>
+                            <th>lagradouro</th>
+                            <th>numero</th>
+                            <th>complemento 1</th>
+                            <th>txtcompl1</th>
+                            <th>complemento 2</th>
+                            <th>txtcompl2</th>
+                            <th>complemento 3</th>
+                            <th>txtcompl3</th>
+                            <th>complemento 4</th>
+                            <th>txtcompl4</th>
+                            <th>observacao</th>
+                            <th>cabeamento</th>
+                            <th>node</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>cod_poste</th>
+                            <th>angulo</th>
+                            <th>divisao</th>
+                            <th>qtdedem</th>
+                            <th>ativo</th>
+                            <th>servico</th>
+                            <th>lat</th>
+                            <th>longitude</th>
+                            <th>poste_box</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="tableTiep" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Tiep</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="tiep_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>codigo</th>                           
+                            <th>x1</th>
+                            <th>y1</th>
+                            <th>x2</th>
+                            <th>y2</th>
+                            <th>ativo</th>
+                            <th>dem_rel</th>
+                            <th>layer</th>
+                            <th>lat1</th>
+                            <th>longitude1</th>                            
+                            <th>lat2</th>
+                            <th>longitude2</th>
+                            <th>servico</th>
+                            <th>node</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" style="display: none">
+        <div class="panel-heading text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Relatório de Postes</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="poste_relatorio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>logradouro</th>
+                            <th>equipamento1</th>
+                            <th>equipamento2</th>
+                            <th>equipamento3</th>
+                            <th>aterramento</th>
+                            <th>status</th>
+                            <th>nomedobloco</th>
+                            <th>x</th>
+                            <th>y</th>
+                            <th>id_temp</th>
+                            <th>ativo</th>
+                            <th>primario</th>
+                            <th>servico</th>
+                            <th>lat</th>
+                            <th>longitude</th>
+                            <th>node</th>
+                            <th>proprietario</th>
+                            <th>tecnico</th>
+                            <th>data</th>
+                            <th>municipio</th>
+                            <th>x_original</th>
+                            <th>y_original</th>
+                            <th>status_edicao</th>
+                            <th>cod_geodatabase</th>
+                            <th>id_poste_arcitech</th>
+                            <th>quantidade_poste</th>
+                            <th>idpostecia</th>
+                            <th>caracteristica_cia</th>
+                            <th>aterropararaio_cia</th>
+                            <th>encontrado</th>
+                            <th>tipo_poste</th>
+                            <th>material_poste</th>
+                            <th>altura_poste</th>
+                            <th>esforco_poste</th>
+                            <th>tipo_base</th>
+                            <th>para_raio</th>
+                            <th>estai</th>
+                            <th>observacao</th>
+                            <th>qtde_ramalligacao</th>
+                            <th>qtde_ramalservico</th>
+                            <th>qtde_estai</th>
+                            <th>avaria</th>
+                            <th>ocupantes</th>
+                            <th>qtde_ocp</th>
+                            <th>qtde_drop</th>
+                            <th>estai2</th>
+                            <th>qtde_estai2</th>
+                            <th>lampsemaforo</th>
+                            <th>tipo_zona</th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/datatable")      
+    <script src="~/Scripts/xlsx.core.js"></script>
+    <script src="~/Scripts/xlsx.js"></script>
+    <script src="~/Scripts/FileSaver.js"></script>
+    <script src="~/Scripts/tableexport.js"></script>
+    <script src="~/Scripts/relatorioComponentesGeral.js"></script>
+}

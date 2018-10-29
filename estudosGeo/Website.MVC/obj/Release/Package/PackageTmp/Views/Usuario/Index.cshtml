@@ -1,0 +1,65 @@
+﻿@model List<Website.Identity.Model.ApplicationUser>
+
+@{
+    ViewBag.Title = "Administração - Usuários";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css {
+    @Styles.Render("~/Content/datatable")
+    @Styles.Render("~/Content/Pace")
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/Usuario")
+}
+
+@Html.AntiForgeryToken()
+
+<div class="container margin-top-forms">    
+    <div class="margin-top-forms">
+        <span>
+            <a href="@Url.Action("AddUsuario")" class="btn btn-success">
+                <span class="glyphicon glyphicon-plus-sign"></span>
+                Novo Usuario
+            </a>
+        </span>
+    </div>
+    <div class="panel panel-primary margin-top-forms">
+        <div class="panel-heading">
+            <h3 class="panel-title text-center"><span class="glyphicon glyphicon-user"></span> Lista de Usuários</h3>
+        </div>
+        <div class="panel-body">
+            <table id="example" class="table table-striped table-bordered" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Login</th>
+                        <th>Opções</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th>@item.UserName</th>
+                            <th>@item.UserLogin</th>
+                            <th>
+                                @Html.ActionLink("Editar", "EditUsuario", "Usuario", new { @id_user = @item.Id }, new { @class = "btn btn-xs btn-warning" })
+                                <button class="btn btn-xs btn-danger" onclick="ExcluirUser('@item.Id');">Excluir</button>
+                                @Html.ActionLink("Alterar senha", "EditPasswordUsuario", "Usuario", new { @idUser = @item.Id }, new { @class = "btn btn-xs btn-primary" })
+                            </th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    @if (ViewBag.Msg != null)
+    {
+        <div class="alert alert-success">
+            <a class="close" data-dismiss="alert">×</a>@ViewBag.Msg
+        </div>
+    }
+</div>

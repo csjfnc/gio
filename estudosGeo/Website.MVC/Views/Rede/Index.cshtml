@@ -1,0 +1,56 @@
+﻿@model Website.MVC.Models.Maps.CidadeViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<div id="globalMap"></div>
+<div id="panelLegenda"></div>
+<div id="pano"></div>
+
+@Html.Partial("MenuCentral", Model)
+
+@Html.Partial("ModalFiltroLampada")
+
+@Html.Partial("ModalOpcoesPoste")
+
+@Html.Partial("ModalTodosIpPoste")
+
+@Html.Partial("FormularioIp")
+
+@Html.Partial("FormularioPoste")
+
+@Html.Partial("DivNovoPoste")
+
+@Html.Partial("ModalFiltroPotencia")
+
+@Html.Partial("ModalFiltrosIp")
+
+@Html.Partial("FormularioTransformador")
+
+@Html.Partial("ModalTodosPontoEntregaPoste")
+
+@Html.Partial("FormularioPontoEntrega")
+
+@Html.Partial("FormularioArvore")
+
+@Html.Partial("ModalOpcoesPontoEntrega")
+
+
+<link href="@Url.Content("~/Content/ModalCustom.css")" rel="stylesheet" type="text/css" />
+
+@section css{ @Styles.Render("~/Content/PaceMaps") }
+
+@section scripts {
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?@System.Web.Configuration.WebConfigurationManager.AppSettings["KeyGoogleMaps"]&libraries=places"></script>
+    @Scripts.Render("~/bundles/RedeMaps")
+    @Scripts.Render("~/bundles/ModalCustom")
+    <script type="text/javascript">
+        $('#fase').mask('ZZZZZ', { translation: { 'Z': { pattern: /[AaBbCcNnVv]/, optional: true } } });
+        $('#fase_transformador').mask('ZZZ', { translation: { 'Z': { pattern: /[AaBbCc]/, optional: true } } });
+        $('#fase_ponto_entrega').mask('ZZZZZ', { translation: { 'Z': { pattern: /[AaBbCcNnVv]/, optional: true } } });
+    </script>
+}

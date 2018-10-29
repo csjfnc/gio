@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<html>
+<body>
+    <form action="Api\Mobile\OfflineMode\SaveStructureOs" method="POST" enctype="multipart/form-data" >
+        Arquivo: <input type="file" name="file">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

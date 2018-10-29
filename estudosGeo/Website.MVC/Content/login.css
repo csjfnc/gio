@@ -1,0 +1,14 @@
+﻿ #bodyLogin {
+    background-color: #d7d7d7;    
+    margin: 0 auto; 
+    background: url(../images/back_oficial.jpg) repeat;
+}
+
+#caixalogin{
+    padding: 30px;
+    background-color:#FFFFFF;
+    margin-top: 80px;
+    box-shadow: 2px 2px 8px 0px #000000;
+    border-radius: 8px;    
+    background-color: #fafafa;
+}

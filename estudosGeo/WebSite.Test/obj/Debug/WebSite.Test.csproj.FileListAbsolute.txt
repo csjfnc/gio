@@ -1,0 +1,146 @@
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\WebSite.Test.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\WebSite.Test.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\obj\Debug\WebSite.Test.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\obj\Debug\WebSite.Test.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\WebSite.Test.dll.config
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\Website.BLL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\Website.DAL.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\EntityFramework.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\MySql.Data.Entity.EF6.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\MySql.Data.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\Website.BLL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\Website.DAL.pdb
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\EntityFramework.xml
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\EntityFramework.SqlServer.dll
+U:\Projetos\DOTNET\Website.Piloto.Generico\WebApp\WebSite.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll.config
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.pdb
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.dll
+C:\Users\mcaraujo\Desktop\Piloto GEOSURVEY\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.pdb
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll.config
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.pdb
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.pdb
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.pdb
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.xml
+C:\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+C:\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.dll
+C:\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll.config
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.pdb
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.xml
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.dll
+C:\Users\cfalanque\Desktop\Cesar\Projetos\VisiumCad\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\csc.exe
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\csc.exe.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\csc.rsp
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\csi.exe
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\csi.rsp
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\vbc.exe
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\vbc.exe.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\vbc.rsp
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll.config
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\WebSite.Test.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.Identity.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.Identity.MySQL.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.MVC.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\MySql.Data.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\log4net.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Http.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Optimization.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Mvc.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Owin.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Razor.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.BLL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.DAL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.Identity.MySQL.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.Identity.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Website.MVC.pdb
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\EntityFramework.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\log4net.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Http.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Optimization.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Mvc.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.Razor.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.dll
+C:\Users\mcaraujo\Desktop\VISIUM_CAD_V.0.1.1\VisiumCad\WebSite.Test\obj\Debug\WebSite.Test.pdb
+C:\francisco\Ver. NET\Visiumgeo\WebSite.Test\obj\Debug\WebSite.Test.csprojResolveAssemblyReference.cache
+C:\francisco\Ver. NET\Visiumgeo\WebSite.Test\obj\Debug\WebSite.Test.dll

@@ -1,0 +1,138 @@
+﻿<!-- Modal fullscreen EditPoste -->
+<div class="modal modal-fullscreen fade" id="ModalEditPoste" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="panel panel-primary margin-top-forms">
+                <div class="panel-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="col-md-12">
+                        <h3 class="text-center text-primary"><b>EDITAR POSTE</b></h3>
+                    </div>
+                    <div class="col-md-6 margin-top-forms">
+                        <!--div class="input-group">
+                            <span class="input-group-addon">Latitude</span>
+                            <input type="text" class="form-control EditPoste" id="input_Latitude" />
+                        </div>
+                        <div class="margin-top-forms">
+                            <button class="btn btn-danger" onclick="GlobalMaps.get().MovePosteCima();"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></button>
+                            <button class="btn btn-warning" onclick="GlobalMaps.get().MovePosteBaixo();"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></button>
+                        </div>
+                        <div class="input-group margin-top-forms">
+                            <span class="input-group-addon">Longitude</span>
+                            <input type="text" class="form-control EditPoste" id="input_Longitude" />
+                        </div-->
+                        <!--div class="margin-top-forms">
+                            <button class="btn btn-danger" onclick="GlobalMaps.get().MovePosteEsquerda();"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></button>
+                            <button class="btn btn-warning" onclick="GlobalMaps.get().MovePosteDireita();"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+                        </div-->
+                        <div class="col-md-6 form-group">
+                            <label for="altura_poste">Altura</label>                            
+                            @Html.DropDownList("altura_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.AlturaPoste>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="esforco_poste">Esforço</label>                            
+                            @Html.DropDownList("esforco_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Esforco>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group"> 
+                            <label for="tipo_poste">Tipo Poste</label>
+                            @Html.DropDownList("tipo_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.TipoPoste>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="esforco_poste">Encontrado?</label>
+                            @Html.DropDownList("encontrado_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Encontrado>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="barramento_poste">Barramento</label>
+                            <input type="text" class="form-control text-uppercase" id="barramento_poste" maxlength="10" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="esforco_poste">Para Raio</label>
+                            @Html.DropDownList("para_raio_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.ParaRaio>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="esforco_poste">Aterramento</label>
+                            @Html.DropDownList("aterramento_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Aterramento>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="estrutura_primaria_poste">Estrutura Primaria</label>
+                            <input type="text" class="form-control text-uppercase" id="estrutura_primaria_poste" maxlength="10" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="estrutura_secundaria_poste">Estrutura Secundaria</label>
+                            <input type="text" class="form-control text-uppercase" id="estrutura_secundaria_poste" maxlength="10" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="quantidade_estai">Quantidade Estai</label>                            
+                            @Html.DropDownList("quantidade_estai", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.QtdEstai>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="ano_poste">Ano</label>
+                            <input type="text" class="form-control text-uppercase" id="ano_poste" maxlength="10" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="situacao_poste">Sistuação</label>
+                            <input type="text" class="form-control text-uppercase" id="situacao_poste" maxlength="10" />
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="equipamento_poste">Equipamento</label>
+                            @Html.DropDownList("equipamento_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Aterramento>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="mufla_poste">Mufla</label>
+                            @Html.DropDownList("mufla_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Mufla>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="rede_primario_poste">Rede Primaria</label>
+                            @Html.DropDownList("rede_primario_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.RedePrimaria>(), new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="defeito_poste">Defeito</label>
+                            @Html.DropDownList("defeito_poste", Website.MVC.Models.Util.EnumConvert.GetEnumSelectList<Website.BLL.Enums.Defeito>(), new { @class = "form-control" })
+                        </div>
+                        <!--div class="input-group margin-top-forms">
+                            <span class="input-group-addon">Descrição</span>
+                            <textarea class="form-control text-uppercase" id="descricao_poste" rows="3" maxlength="500"></textarea>
+                        </!div-->
+
+                        <div class="col-md-12">
+                            <hr />
+                            <button type="button" class="btn btn-primary" style="display: none" onclick="GlobalMaps.get().VoltarOpcoesPoste();"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span> Voltar </button>
+                            <button type="submit" class="btn btn-success" onclick="GlobalMaps.get().SalvarEdicaoPoste();"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Salvar</button>
+                            <button class="btn btn-danger" onclick="GlobalMaps.get().CancelarEdicaoPoste();"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar</button>
+                            <!--button type="submit" class="btn btn-info" onclick="GlobalMaps.get().AbreStreetView();"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Abre Street</!--button-->
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 margin-top-forms">
+                        <div id="carouselposte" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators" id="ol-carouselposte"></ol>
+                            <div class="carousel-inner" role="listbox" id="div-carouselposte">
+                                <div class="item active"></div>
+                                </div>
+                            <a class="left carousel-control" href="#carouselposte" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carouselposte" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        
+                       
+                                        
+                        <div class="col-md-6 margin-top-forms">
+                            <button type="button" class="btn btn-primary btn-block" onclick="GlobalMaps.get().AddFoto();">ADICIONAR FOTO</button>
+                        </div>
+                        <div class="col-md-12 margin-top-forms">
+                            <div class="panel panel-default">
+                                <div class="panel-body" id="div_fotos">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

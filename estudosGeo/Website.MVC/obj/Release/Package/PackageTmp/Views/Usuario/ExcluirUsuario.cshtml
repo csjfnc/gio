@@ -1,0 +1,33 @@
+﻿@model Website.Identity.Model.ApplicationUser
+@{
+    ViewBag.Title = "ExcluirUsuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css{ @Styles.Render("~/Content/Pace") }
+
+<div class="container margin-top-forms">
+    <h3 class="text-center text-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Deseja Realmente Excluir o Usuario : @Model.UserName ?</h3>
+    <div class="col-md-12">
+        <div class="col-md-offset-4 col-md-4">
+            <div class="margin-top-forms margin-bottom-forms">
+                <div class="col-md-6">
+                    <span>
+                        <a href="@Url.Action("ExcluirDefinitivo", new { @id_user = @Model.Id })" class="btn btn-success btn-block">
+                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                            Confirmar
+                        </a>
+                    </span>
+                </div>
+                <div class="col-md-6">
+                    <span>
+                        <a href="@Url.Action("Index")" class="btn btn-danger btn-block">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            Cancelar
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

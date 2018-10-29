@@ -1,0 +1,62 @@
+﻿@model Website.MVC.Models.CelularViewModel
+
+@{
+    ViewBag.Title = "Novo Celular";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css{ @Styles.Render("~/Content/Pace") }
+
+@Html.AntiForgeryToken()
+
+<div class="container">
+    <nav>
+        <ul class="pager">
+            <li class="previous"><a href="@Url.Action("Index", "Celular")"><span aria-hidden="true"></span>Lista de Celulares</a></li>
+        </ul>
+    </nav>
+    @Html.ValidationSummary(true)
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <a class="close" data-dismiss="alert">×</a>
+            @Html.ValidationSummary()
+        </div>
+    }
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title text-center"><span class="glyphicon glyphicon-user"></span> Adicionar Celular</h3>
+        </div>
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                <div class="col-md-6">
+                    <div class="input-group  margin-top-forms">
+                        <span class="input-group-addon">Imei</span>
+                        @Html.EditorFor(m => m.Imei, new { htmlAttributes = new { required = "required", @class = "form-control", maxlength = 15 } })
+                    </div>
+                    <div class="input-group  margin-top-forms">
+                        <span class="input-group-addon">Nome</span>
+                        @Html.EditorFor(m => m.Name, new { htmlAttributes = new { required = "required", @class = "form-control", maxlength = 50 } })
+                    </div>
+                    <div class="input-group margin-top-forms">
+                        <span class="input-group-addon">Número de telefone</span>
+                        @Html.EditorFor(m => m.PhoneNumber, new { htmlAttributes = new { required = "required", @class = "form-control", maxlength = 11 } })
+                    </div>
+                    <div class="input-group margin-top-forms" style="color: red;">
+                        Celular Bloqueado: @Html.CheckBoxFor(m => m.IsBlock, new { @class = "" })                        
+                    </div>                
+                </div>
+                <div class="col-md-6">
+                    <div class="margin-top-forms margin-bottom-forms">
+                        <button type="submit" value="Confirmar" class="btn btn-success btn-block"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar</button>
+                        <a href="@Url.Action("Index")" class="btn btn-danger btn-block">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            Cancelar
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
